@@ -1,0 +1,46 @@
+.wrapper {
+  text-align: center;
+  background-color: white;
+}
+
+.wrapper .image {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .row {
+  justify-content: center;
+}
+
+.wrapper .feature {
+  padding: 10px;
+  position: relative;
+	overflow: hidden;
+}
+
+.wrapper .feature h3 {
+  position: absolute;
+  color: white;
+  font-size: 26px;
+  font-family: 'Yapari-trial';
+  top: 45%;
+  left: 0;
+  right: 0;
+}
+
+.wrapper p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width:991px) {
+	.wrapper .feature h3 {
+		font-size: 18px;
+	}
+}
+
+@media (max-width:768px) {
+	.wrapper .feature h3 {
+    font-size: 26px;
+	}
+}

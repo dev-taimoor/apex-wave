@@ -1,0 +1,44 @@
+.brand {
+  text-align: center;
+}
+
+.brand .image {
+  width: 60%;
+}
+
+.brand h3 {
+  font-family: 'Yapari-trial';
+  text-align: start;
+}
+
+.brand .row {
+  justify-content: center;
+}
+
+.brand .feature {
+  padding: 10px;
+  position: relative;
+	overflow: hidden;
+}
+
+
+.brand .image-wrapper {
+  background-color: rgba(0, 0, 0, 0.05);
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width:991px) {
+	r {
+    min-height: 160px;
+	}
+}
+
+@media (max-width:768px) {
+	.brand .image-wrappe {
+    min-height: 200px;
+	}
+}
